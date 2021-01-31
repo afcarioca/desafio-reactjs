@@ -1,0 +1,107 @@
+.Channel{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin: auto;
+}
+
+.Channel .Channel-Button{
+
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    color:white;
+    font-weight: bolder;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+
+
+.Channel .Channel-Button:focus, .Channel-Input:focus{
+    outline: none;
+}
+
+
+
+.Channel .Channel-Button:hover{
+
+    height: 30px;
+    background-color:teal;
+    color: black;
+    transition: 2s;
+}
+
+.Channel .Channel-Button:focus{
+    background-color: black;
+    color:white;
+}
+
+.Channel .Channel-Input{
+    border-radius: 50px;
+    width: 407px;
+    height: 45px;
+   
+
+}
+
+.Channel-Title{
+    color: white;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px) {
+    .Channel{
+            width: auto;
+            display: flex;
+            flex-flow: column wrap;
+            padding: 100px;
+        
+
+    }
+
+    .Channel .Channel-Button{
+
+        border: 1px solid black;
+    }
+    
+
+}
+.Frame{
+    width: 100%;
+}
+
+@media only screen and (max-width: 530px) {
+    .Channel .Channel-Input{
+        border-radius: 50px;
+        width: 300px;
+        height: 45px;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .Channel .Channel-Input{
+        border-radius: 50px;
+        width: 200px;
+        height: 45px;
+    
+    }
+
+    .Channel .Channel-Button{
+
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .s{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
